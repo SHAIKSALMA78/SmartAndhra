@@ -1,0 +1,2 @@
+rootProject.name = "SmartAndhra"
+include ':app'
