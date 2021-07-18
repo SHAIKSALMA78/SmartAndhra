@@ -37,7 +37,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.HoldView> {
         holder.name.setText(list.get(position).getName());
         holder.problem.setText(list.get(position).getProblem());
         holder.number.setText(list.get(position).getNumber());
-        holder.textView.setText(list.get(position).getTextview());
         holder.del.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,7 +56,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.HoldView> {
 
     public class HoldView extends RecyclerView.ViewHolder {
         ImageButton edit,del;
-        TextView name,problem,number,textView;
+        TextView name,problem,number;
         ImageView iv;
         public HoldView(@NonNull View itemView) {
             super(itemView);
@@ -66,7 +65,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.HoldView> {
             name = itemView.findViewById(R.id.name);
             problem = itemView.findViewById(R.id.problem);
             number = itemView.findViewById(R.id.number);
-            textView = itemView.findViewById(R.id.textView);
             iv = itemView.findViewById(R.id.iv);
         }
     }

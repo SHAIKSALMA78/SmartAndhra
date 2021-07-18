@@ -15,6 +15,6 @@ public class SuccessfulRegistration extends AppCompatActivity {
     }
 
     public void returnhome(View view) {
-        startActivity(new Intent(this,MainActivity.class));
+        startActivity(new Intent(this,HomePage.class));
     }
 }

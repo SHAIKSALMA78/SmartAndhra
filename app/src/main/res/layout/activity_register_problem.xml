@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="14dp"
+    android:padding="10dp"
     android:gravity="center"
     android:background="@drawable/mahatma"
     tools:context=".RegisterProblem">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Registration"
-        android:textColor="#0640ED"
+        android:textColor="#9C0C22"
         android:textSize="45sp"
         android:textStyle="bold" />
 
